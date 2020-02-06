@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>欢迎来到 中文游戏网</title>
+    <!--swiper框架样式-->
+    <link rel="stylesheet" type="text/css" href="../jsp/about/css/swiper-3.4.2.min.css" />
+    <!--主要样式-->
+    <link rel="stylesheet" type="text/css" href="../jsp/about/css/style.css" />
+    <!--插件-->
+    <script src="../jsp/article/js/jquery-1.11.0.min.js"></script>
+    <script src="../jsp/about/js/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- Bootstrap -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../jsp/article/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="../jsp/article/css/body.css"/>
+    <link rel="stylesheet" href="../jsp/thanks/css/style.css" type="text/css" />
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" style="height: 100px">
+
+    <div class="container">
+        <div class="navbar-header">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img alt="Brand" src="../img/游戏.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="col-md-4">
+                <ul class="nav navbar-nav">
+                    <li><a href="#"><h4>首页</h4></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h4>论坛<span class="caret"></span></h4></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">精选</a></li>
+                            <li><a href="#">探险家</a></li>
+                            <li><a href="#">热门新闻</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">愿望单</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><h4>关于</h4></a></li>
+                    <li><a href="#"><h4>客服</h4></a></li>
+                </ul>
+            </ul>
+            </div>
+
+            <div id="login">
+                <form class="navbar-form navbar-left">
+                    <a href=""><h4>没有账号？立即注册</h4></a>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="用户名">
+                        <input type="password" class="form-control" placeholder="密码">
+                        <input type="button" class="btn btn-success" id="loginsub" value="登录">
+                    </div>
+                </form>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h4>选择语言<span class="caret"></span></h4></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">简体中文</a></li>
+                        <li><a href="#">繁體中文</a></li>
+                        <li><a href="#">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container" style="width:100%;height:650px;background-image: url(../img/bj.jpg)">
+    <div style="height: 150px"></div>
+    <div class="btn-group col-md-offset-2 col-md-5">
+        <div class="btn-group btn-group-lg">
+            <button id="shop" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                您的论坛 <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="shop">
+                <li><a href="#">论坛首页</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">最近浏览</a></li>
+                <li><a href="#">个人中心</a></li>
+            </ul>
+        </div>
+        <div class="btn-group btn-group-lg">
+            <button type="button" id="game" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                游戏 <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="game">
+                <li><a href="#">在线游玩</a></li>
+                <li><a href="#">抢鲜体验</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">按类别浏览</li>
+                <li><a href="#">策略塔防</a></li>
+                <li><a href="#">角色扮演</a></li>
+                <li><a href="#">多人对战</a></li>
+                <li><a href="#">体育赛车</a></li>
+                <li><a href="#">第一人称射击</a></li>
+            </ul>
+        </div>
+        <div class="btn-group btn-group-lg">
+            <button id="software" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                移动中心 <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="software">
+                <li><a href="#">手机游戏</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">按类别浏览</li>
+                <li><a href="#">策略</a></li>
+                <li><a href="#">赛车</a></li>
+                <li><a href="#">传奇</a></li>
+                <li><a href="#">休闲</a></li>
+                <li><a href="#">动作</a></li>
+            </ul>
+        </div>
+        <div class="btn-group btn-group-lg">
+            <button id="company" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                游戏厂商 <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="company">
+                <li><a href="#">腾讯</a></li>
+                <li><a href="#">网易</a></li>
+                <li><a href="#">搜狐</a></li>
+                <li><a href="#">百度</a></li>
+                <li><a href="#">微软</a></li>
+            </ul>
+        </div>
+        <div class="btn btn-lg btn-danger"><a href="#" style="color: #ffffff">新闻</a></div>
+    </div>
+    <div class="col-md-3">
+        <form class="form-inline">
+            <div class="form-group">
+                <input type="text" class="form-control input-lg" placeholder="荒野大镖客">
+            </div>
+            <button type="submit" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-search"></span></button>
+        </form>
+    </div>
+</div>
+
+<div class="container col-md-2" style="background-image: url(../img/lbj.jpg);height: 950px">
+    <div class="media">
+        <br>
+        <div class="media-left">
+            <a href="#">
+                <img class="media-object" src="../img/游戏.png" alt="...">
+            </a>
+        </div>
+        <div class="media-body text-center">
+            <br>
+            <h3 class="media-heading">Gaming！</h3>
+        </div>
+        <hr>
+    </div>
+    <div class="text-left">
+        <h6>推荐</h6>
+        <h5><a href="#"><span class="glyphicon glyphicon-fire" style="color: #761c19">    时下热门</span></a> </h5>
+        <h5><a href="#"><span class="glyphicon glyphicon-floppy-disk" style="color: #d58512">    最多关注</span></a> </h5>
+        <h5><a href="#"><span class="glyphicon glyphicon-dashboard" style="color: aquamarine">    即将推出</span></a> </h5>
+        <h5><a href="#"><span class="glyphicon glyphicon-certificate" style="color: #b2dba1">    游戏鉴赏家</span></a> </h5>
+    </div>
+    <div class="text-left">
+        <h6>浏览分类</h6>
+        <h5><a href="#"><span class="glyphicon glyphicon-flag" style="color: #a94442">    探险家</span></a> </h5>
+        <h6>文章评测</h6>
+        <h5><a href="#"><span class="glyphicon glyphicon-th-list" style="color: yellow">    高玩评测</span></a> </h5>
+        <div class="dropdown">
+            <a href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <span class="glyphicon glyphicon-tree-deciduous" style="color: thistle">    按类别查看</span>
+                <span class="caret" style="color: thistle"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">策略经营</a></li>
+                <li><a href="#">动作射击</a></li>
+                <li><a href="#">音乐舞蹈</a></li>
+                <li><a href="#">体育竞技</a></li>
+                <li><a href="#">冒险益智</a></li>
+                <li><a href="#">角色扮演</a></li>
+                <li><a href="#">......</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">热门</li>
+                <li><a href="#">GrandTheftAutoV</a></li>
+                <li><a href="#">Counter Strike</a></li>
+                <li><a href="#">Red Dead Redemption 2</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="text-left" style="margin-top: 460px">
+        <h6><span class="glyphicon glyphicon-list" style="color: yellow">    最近浏览</span></h6>
+        <h5><a href="#" style="color: aquamarine">    GrandTheftAutoV</a> </h5>
+        <h5><a href="#" style="color: aquamarine">    Counter Strike</a> </h5>
+        <h5><a href="#" style="color: aquamarine">    Red Dead Redemption 2</a> </h5>
+    </div>
+</div>
+
+<div class="container col-md-8" style="background-color: #122b40;height: 950px">
+    <div>
+        <h3 style="color: #ffffff">&nbsp;&nbsp;<span class="glyphicon glyphicon-thumbs-up">&nbsp;精选和推荐</span></h3>
+    </div>
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner" style="height: 366px">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to ="0" class="active" ></li>
+                <li data-target="#myCarousel" data-slide-to ="1"></li>
+                <li data-target="#myCarousel" data-slide-to ="2"></li>
+                <li data-target="#myCarousel" data-slide-to ="3"></li>
+                <li data-target="#myCarousel" data-slide-to ="4"></li>
+            </ol>
+            <div class="item active">
+                <a href="show.html">
+                    <img src="../img/welcome.jpg">
+                </a>
+
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="../img/game/apex.jpg">
+                </a>
+                <div class="carousel-control col-md-offset-8">
+                    <h2 style="color: thistle">Apex英雄</h2><br>
+                    <div>
+                        <span class="glyphicon glyphicon-tags"> 类别：</span>
+                        <a href="#" style="color: yellow"><h5>大逃杀</h5></a>
+                    </div>
+                    <div>
+                        <span class="glyphicon glyphicon-dashboard"> 评分：</span>
+                        <a href="#" style="color: yellow"><h5>5.0</h5></a>
+                    </div>
+                    <div>
+                        <span class="glyphicon glyphicon-home"> 厂商：</span>
+                        <a href="#" style="color: yellow"><h5>Origin</h5></a>
+                    </div>
+                    <div><hr>
+                        <a href="#" style="color: #d58512">
+                            <span class="glyphicon glyphicon-shopping-cart">查看详情</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="../img/game/chlh.jpg" alt="第三张">
+                </a>
+                <div class="carousel-control col-md-offset-8">
+                    <h2 style="color: thistle" >彩虹六号</h2><br>
+                    <div>
+                        <span class="glyphicon glyphicon-tags"> 类别：</span>
+                        <a href="#" style="color: yellow"><h5>动作射击</h5></a>
+                        <a href="#" style="color: yellow"><h5>多人在线</h5></a>
+                    </div>
+                    <div>
+                        <span class="glyphicon glyphicon-home"> 厂商：</span>
+                        <a href="#" style="color: yellow"><h5>UBISOFT</h5></a>
+                    </div>
+                    <div><hr>
+                        <h6 style="color: #2aabd2">原价：<del>399</del></h6>
+                        <h5 style="color: #a94442">现价：99</h5>
+                        <a href="#" style="color: #d58512">
+                            <span class="glyphicon glyphicon-shopping-cart">查看详情</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="../img/game/pubg.jpg" alt="第四张">
+                </a>
+                <div class="carousel-control col-md-offset-8">
+                    <h2 style="color: thistle">绝地求生</h2><br>
+                    <div>
+                        <span class="glyphicon glyphicon-tags"> 类别：</span>
+                        <a href="#" style="color: yellow"><h5>动作射击</h5></a>
+                        <a href="#" style="color: yellow"><h5>多人在线</h5></a>
+                    </div>
+                    <div>
+                        <span class="glyphicon glyphicon-home"> 厂商：</span>
+                        <a href="#" style="color: yellow"><h5>Tencent</h5></a>
+                    </div>
+                    <div><hr>
+                        <h6 style="color: #2aabd2">原价：<del>99</del></h6>
+                        <h5 style="color: #a94442">现价：79</h5>
+                        <a href="#" style="color: #d58512">
+                            <span class="glyphicon glyphicon-shopping-cart">查看详情</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="../img/game/lol.jpg" alt="第五张">
+                </a>
+                <div class="carousel-control col-md-offset-8">
+                    <h2 style="color: thistle">英雄联盟</h2><br>
+                    <div>
+                        <span class="glyphicon glyphicon-tags"> 类别：</span>
+                        <a href="#" style="color: yellow"><h5>动作射击</h5></a>
+                        <a href="#" style="color: yellow"><h5>多人在线</h5></a>
+                    </div>
+                    <div>
+                        <span class="glyphicon glyphicon-home"> 厂商：</span>
+                        <a href="#" style="color: yellow"><h5>Tencent</h5></a>
+                    </div>
+                    <div><hr>
+                        <h6 style="color: #2aabd2">原价：<del>免费游玩</del></h6>
+                        <h5 style="color: #a94442">现价：免费游玩</h5>
+                        <a href="#" style="color: #d58512">
+                            <span class="glyphicon glyphicon-shopping-cart">查看详情</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#myCarousel" data-slide="prev" class="carousel-control left"><!-- ‹ -->
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a><!-- 左箭头 -->
+            <a href="#myCarousel" data-slide="next" class="carousel-control right"><!-- › -->
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a><!-- 右箭头 -->
+        </div>
+    </div>
+
+    <div>
+        <hr>
+        <h3 style="color: #ffffff">&nbsp;&nbsp;<span class="glyphicon glyphicon-bell">&nbsp;特别推荐</span></h3>
+        <div class="row">
+            <div class="col-md-4" style="height: 435px">
+                <div class="thumbnail" style="background-color: steelblue;height: 435px">
+                    <img src="../img/cutgame/ws3.jpg" alt="...">
+                    <div class="caption">
+                        <h3>巫师Ⅲ狂猎</h3>
+                        <div>
+                            <span class="glyphicon glyphicon-tags"> 类别：</span>
+                            <a href="#" style="color: yellow"><h5>角色扮演</h5></a>
+                        </div>
+                        <div>
+                            <span class="glyphicon glyphicon-home"> 厂商：</span>
+                            <a href="#" style="color: yellow"><h5>CD PR</h5></a>
+                        </div>
+                        <p><a href="#" class="btn btn-danger" role="button">查看详情 79￥</a> <a href="#" class="btn btn-warning" role="button">加入愿望单</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="height: 435px">
+                <div class="thumbnail" style="background-color: steelblue;height: 435px">
+                    <img src="../img/cutgame/kmg.jpg" alt="...">
+                    <div class="caption">
+                        <h3>看门狗2</h3>
+                        <div>
+                            <span class="glyphicon glyphicon-tags"> 类别：</span>
+                            <a href="#" style="color: yellow"><h5>动作射击</h5></a>
+                        </div>
+                        <div>
+                            <span class="glyphicon glyphicon-home"> 厂商：</span>
+                            <a href="#" style="color: yellow"><h5>UBISOFT</h5></a>
+                        </div>
+                        <p><a href="#" class="btn btn-danger" role="button">查看详情 199￥</a> <a href="#" class="btn btn-warning" role="button">加入愿望单</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="height: 435px">
+                <div class="thumbnail" style="background-color: steelblue;height: 435px">
+                    <img src="../img/cutgame/kmg.jpg" alt="...">
+                    <div class="caption">
+                        <h3>看门狗2</h3>
+                        <div>
+                            <span class="glyphicon glyphicon-tags"> 类别：</span>
+                            <a href="#" style="color: yellow"><h5>动作射击</h5></a>
+                        </div>
+                        <div>
+                            <span class="glyphicon glyphicon-home"> 厂商：</span>
+                            <a href="#" style="color: yellow"><h5>UBISOFT</h5></a>
+                        </div>
+                        <p><a href="#" class="btn btn-danger" role="button">查看详情 199￥</a> <a href="#" class="btn btn-warning" role="button">加入愿望单</a></p>
+                    </div>
+                </div>
+            </div>
+        </div><hr>
+    </div>
+</div>
+
+<div class="container col-md-2" style="height: 950px;background-image: url(../img/rbj.jpg)">
+    <div class="media">
+        <br>
+        <div class="media-left">
+            <a href="#">
+                <img class="media-object" src="../img/游戏.png" alt="...">
+            </a>
+        </div>
+        <div class="media-body text-center">
+            <br>
+            <h3 class="media-heading">Gaming！</h3>
+        </div>
+        <hr>
+    </div>
+</div>
+
+<div class="container-fluid" style="background-color:#122b40;height: 62px;margin-top: 950px">
+    <br>
+    <div class="col-md-offset-2 col-md-8">
+        <ul class="nav nav-pills">
+            <li class="active"><a href="#hot" data-toggle="tab">热门游戏</a></li>
+            <li><a href="#good" data-toggle="tab">最高评分</a></li>
+            <li><a href="#new" data-toggle="tab">最近更新</a></li>
+            <li><a href="#cut" data-toggle="tab">最多好评</a></li>
+        </ul>
+    </div>
+</div>
+<div class="container-fluid" style="background-color: #0C1925;height: 975px">
+    <div class="tab-content col-md-offset-2 col-md-8"><br>
+        <div class="tab-pane active" id="hot">
+            <div class=" col-md-9">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #23527c">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object" src="../img/listgame/gta.jpg" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading" style="color: #a6e1ec">GTA5（Grand Theft Auto 5）</h3>
+                            <img src="../img/windows.png">&nbsp;<img src="../img/mac.png">
+                            <div>
+                                <h5><span class="glyphicon glyphicon-tags"> 类别：</span></h5>
+                                <h6>
+                                    <a href="#" style="color: yellow">多人在线</a>
+                                </h6>
+                                <a href="#"><h4 style="color: red">点击查看详情</h4></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <ul class="dropdown-menu col-md-4" style="left: 100%;top: 0px;height: 950px;background-color: #269abc">
+                    <li><a href="#" style="color: black"><h5><strong>GTA5（Grand Theft Auto 5）</strong></h5></a></li>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                            <h4 class="list-group-item-heading">简介</h4>
+                            <p class="list-group-item-text text-justify">《侠盗猎车手5》（Grand Theft Auto 5）故事发生以美国洛杉矶及其周边地区为原型的城市Los Santos，是现实地区中的洛杉矶和南加州。制作单位拍摄了超过25万张相关照片，并且研究了人口调查和汽车销售数据，以建立游戏中的世界。</p>
+                        </a>
+                    </div>
+                    <li class="text-center"><h5><strong>用户评论</strong></h5></li>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">第一人称视角</li>
+                        <li class="list-group-item list-group-item-info">沙盒巅峰</li>
+                    </ul>
+                    <li class="text-center"><h5><strong>游戏截图</strong></h5></li>
+                    <div>
+                        <video controlsautoplay controls="controls" src="../img/listgame/vedio/gta5-1.mp4" style="width: 100%"></video>
+                    </div>
+                    <hr>
+                    <div>
+                        <video controlsautoplay controls="controls" src="../img/listgame/vedio/gta5-2.mp4" style="width: 100%"></video>
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="../img/listgame/little/gta51.jpg" width="100%">
+                    </div>
+                </ul>
+            </div>
+            <div class=" col-md-9">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #23527c">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object" src="../img/listgame/mssj.jpg" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading" style="color: #a6e1ec">魔兽世界（World of Warcraft）</h3>
+                            <img src="../img/windows.png">&nbsp;<img src="../img/mac.png">
+                            <div>
+                                <h5><span class="glyphicon glyphicon-tags"> 类别：</span></h5>
+                                <h6>
+                                    <a href="#" style="color: yellow">角色扮演</a>
+                                    <a href="#"><h4 style="color: red">点击查看详情</h4></a></span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <ul class="dropdown-menu col-md-4" style="left: 100%;top: -157px;height: 950px;background-color: #269abc">
+                    <li><a href="#" style="color: black"><h5><strong>魔兽世界（World of Warcraft）</strong></h5></a></li>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                            <h4 class="list-group-item-heading">简介</h4>
+                            <p class="list-group-item-text text-justify">《魔兽世界》（World of Warcraft）是由著名游戏公司暴雪娱乐所制作的第一款网络游戏，属于大型多人在线角色扮演游戏。游戏以该公司出品的即时战略游戏《魔兽争霸》的剧情为历史背景，依托魔兽争霸的历史事件和英雄人物，魔兽世界有着完整的历史背景时间线。</p>
+                        </a>
+                    </div>
+                    <li class="text-center"><h5><strong>用户评论</strong></h5></li>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">永远都记得春节在冬泉谷看雪的感觉</li>
+                        <li class="list-group-item list-group-item-info">MMORPG巅峰</li>
+                        <li class="list-group-item list-group-item-warning">这是我的另一半生命。</li>
+                        <li class="list-group-item list-group-item-danger">怀旧服真是让我梦回青春</li>
+                    </ul>
+                    <li class="text-center"><h5><strong>游戏截图</strong></h5></li>
+                    <div>
+                        <img src="../img/listgame/little/ms1.jpg" width="100%">
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="../img/listgame/little/ms2.jpg" width="100%">
+                    </div>
+                </ul>
+            </div>
+            <div class=" col-md-9">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #23527c">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object" src="../img/listgame/mssj.jpg" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading" style="color: #a6e1ec">魔兽世界（World of Warcraft）</h3>
+                            <img src="../img/windows.png">&nbsp;<img src="../img/mac.png">
+                            <div>
+                                <h5><span class="glyphicon glyphicon-tags"> 类别：</span></h5>
+                                <h6>
+                                    <a href="#" style="color: yellow">角色扮演</a>
+                                    <a href="#"><h4 style="color: red">点击查看详情</h4></a></span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <ul class="dropdown-menu col-md-4" style="left: 100%;top: -314px;height: 950px;background-color: #269abc">
+                    <li><a href="#" style="color: black"><h5><strong>魔兽世界（World of Warcraft）</strong></h5></a></li>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                            <h4 class="list-group-item-heading">简介</h4>
+                            <p class="list-group-item-text text-justify">《魔兽世界》（World of Warcraft）是由著名游戏公司暴雪娱乐所制作的第一款网络游戏，属于大型多人在线角色扮演游戏。游戏以该公司出品的即时战略游戏《魔兽争霸》的剧情为历史背景，依托魔兽争霸的历史事件和英雄人物，魔兽世界有着完整的历史背景时间线。</p>
+                        </a>
+                    </div>
+                    <li class="text-center"><h5><strong>用户评论</strong></h5></li>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">永远都记得春节在冬泉谷看雪的感觉</li>
+                        <li class="list-group-item list-group-item-info">MMORPG巅峰</li>
+                        <li class="list-group-item list-group-item-warning">这是我的另一半生命。</li>
+                        <li class="list-group-item list-group-item-danger">怀旧服真是让我梦回青春</li>
+                    </ul>
+                    <li class="text-center"><h5><strong>游戏截图</strong></h5></li>
+                    <div>
+                        <img src="../img/listgame/little/ms1.jpg" width="100%">
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="../img/listgame/little/ms2.jpg" width="100%">
+                    </div>
+                </ul>
+            </div>
+            <div class=" col-md-9">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #23527c">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object" src="../img/listgame/mssj.jpg" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading" style="color: #a6e1ec">魔兽世界（World of Warcraft）</h3>
+                            <img src="../img/windows.png">&nbsp;<img src="../img/mac.png">
+                            <div>
+                                <h5><span class="glyphicon glyphicon-tags"> 类别：</span></h5>
+                                <h6>
+                                   <a href="#" style="color: yellow">角色扮演</a>
+                                    <a href="#"><h4 style="color: red">点击查看详情</h4></a></span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <ul class="dropdown-menu col-md-4" style="left: 100%;top: -471px;height: 950px;background-color: #269abc">
+                    <li><a href="#" style="color: black"><h5><strong>魔兽世界（World of Warcraft）</strong></h5></a></li>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                            <h4 class="list-group-item-heading">简介</h4>
+                            <p class="list-group-item-text text-justify">《魔兽世界》（World of Warcraft）是由著名游戏公司暴雪娱乐所制作的第一款网络游戏，属于大型多人在线角色扮演游戏。游戏以该公司出品的即时战略游戏《魔兽争霸》的剧情为历史背景，依托魔兽争霸的历史事件和英雄人物，魔兽世界有着完整的历史背景时间线。</p>
+                        </a>
+                    </div>
+                    <li class="text-center"><h5><strong>用户评论</strong></h5></li>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">永远都记得春节在冬泉谷看雪的感觉</li>
+                        <li class="list-group-item list-group-item-info">MMORPG巅峰</li>
+                        <li class="list-group-item list-group-item-warning">这是我的另一半生命。</li>
+                        <li class="list-group-item list-group-item-danger">怀旧服真是让我梦回青春</li>
+                    </ul>
+                    <li class="text-center"><h5><strong>游戏截图</strong></h5></li>
+                    <div>
+                        <img src="../img/listgame/little/ms1.jpg" width="100%">
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="../img/listgame/little/ms2.jpg" width="100%">
+                    </div>
+                </ul>
+            </div>
+            <div class=" col-md-9">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #23527c">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object" src="../img/listgame/mssj.jpg" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading" style="color: #a6e1ec">魔兽世界（World of Warcraft）</h3>
+                            <img src="../img/windows.png">&nbsp;<img src="../img/mac.png">
+                            <div>
+                                <h5><span class="glyphicon glyphicon-tags"> 类别：</span></h5>
+                                <h6>
+                                    <a href="#" style="color: yellow">角色扮演</a>
+                                    <a href="#"><h4 style="color: red">点击查看详情</h4></a></span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <ul class="dropdown-menu col-md-4" style="left: 100%;top: -628px;height: 950px;background-color: #269abc">
+                    <li><a href="#" style="color: black"><h5><strong>魔兽世界（World of Warcraft）</strong></h5></a></li>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                            <h4 class="list-group-item-heading">简介</h4>
+                            <p class="list-group-item-text text-justify">《魔兽世界》（World of Warcraft）是由著名游戏公司暴雪娱乐所制作的第一款网络游戏，属于大型多人在线角色扮演游戏。游戏以该公司出品的即时战略游戏《魔兽争霸》的剧情为历史背景，依托魔兽争霸的历史事件和英雄人物，魔兽世界有着完整的历史背景时间线。</p>
+                        </a>
+                    </div>
+                    <li class="text-center"><h5><strong>用户评论</strong></h5></li>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">永远都记得春节在冬泉谷看雪的感觉</li>
+                        <li class="list-group-item list-group-item-info">MMORPG巅峰</li>
+                        <li class="list-group-item list-group-item-warning">这是我的另一半生命。</li>
+                        <li class="list-group-item list-group-item-danger">怀旧服真是让我梦回青春</li>
+                    </ul>
+                    <li class="text-center"><h5><strong>游戏截图</strong></h5></li>
+                    <div>
+                        <img src="../img/listgame/little/ms1.jpg" width="100%">
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="../img/listgame/little/ms2.jpg" width="100%">
+                    </div>
+                </ul>
+            </div>
+            <div class=" col-md-9">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #23527c">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object" src="../img/listgame/mssj.jpg" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading" style="color: #a6e1ec">魔兽世界（World of Warcraft）</h3>
+                            <img src="../img/windows.png">&nbsp;<img src="../img/mac.png">
+                            <div>
+                                <h5><span class="glyphicon glyphicon-tags"> 类别：</span></h5>
+                                <h6>
+                                    <a href="#" style="color: yellow">角色扮演</a>
+                                    <a href="#"><h4 style="color: red">点击查看详情</h4></a></span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <ul class="dropdown-menu col-md-4" style="left: 100%;top: -785px;height: 950px;background-color: #269abc">
+                    <li><a href="#" style="color: black"><h5><strong>魔兽世界（World of Warcraft）</strong></h5></a></li>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                            <h4 class="list-group-item-heading">简介</h4>
+                            <p class="list-group-item-text text-justify">《魔兽世界》（World of Warcraft）是由著名游戏公司暴雪娱乐所制作的第一款网络游戏，属于大型多人在线角色扮演游戏。游戏以该公司出品的即时战略游戏《魔兽争霸》的剧情为历史背景，依托魔兽争霸的历史事件和英雄人物，魔兽世界有着完整的历史背景时间线。</p>
+                        </a>
+                    </div>
+                    <li class="text-center"><h5><strong>用户评论</strong></h5></li>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">永远都记得春节在冬泉谷看雪的感觉</li>
+                        <li class="list-group-item list-group-item-info">MMORPG巅峰</li>
+                        <li class="list-group-item list-group-item-warning">这是我的另一半生命。</li>
+                        <li class="list-group-item list-group-item-danger">怀旧服真是让我梦回青春</li>
+                    </ul>
+                    <li class="text-center"><h5><strong>游戏截图</strong></h5></li>
+                    <div>
+                        <img src="../img/listgame/little/ms1.jpg" width="100%">
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="../img/listgame/little/ms2.jpg" width="100%">
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tab-pane" id="good">
+            <div class="media">
+                <div class="media-left media-middle">
+                    <a href="#">
+                        <img class="media-object" src="../img/listgame/ckxt.jpg" alt="...">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading" style="color: #a6e1ec">刺客信条（Assassin's Creed
+                        ）</h3>
+                    <img src="../img/windows.png">&nbsp;<img src="../img/mac.png">
+                    <div>
+                        <h5><span class="glyphicon glyphicon-tags"> 类别：</span></h5>
+                        <h6>
+                            <a href="#" style="color: yellow">动作冒险&nbsp;&nbsp;</a><a href="#" style="color: yellow">大型沙盒</a>
+                        </h6>
+                        <button type="button" class="btn btn-danger btn-sm">查看详情</button>
+                    </div>
+                </div>
+            </div>
+            <div class="media">
+                <div class="media-left media-middle">
+                    <a href="#">
+                        <img class="media-object" src="${pageContext.request.contextPath}/static/img/listgame/ckxt.jpg" alt="${pageContext.request.contextPath}/static.">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading" style="color: #a6e1ec">刺客信条（Assassin's Creed
+                        ）</h3>
+                    <img src="${pageContext.request.contextPath}/static/img/windows.png">&nbsp;<img src="${pageContext.request.contextPath}/static/img/mac.png">
+                    <div>
+                        <h5><span class="glyphicon glyphicon-tags"> 类别：</span></h5>
+                        <h6>
+                            <a href="#" style="color: yellow">动作冒险&nbsp;&nbsp;</a><a href="#" style="color: yellow">大型沙盒</a>
+                        </h6>
+                        <button type="button" class="btn btn-danger btn-sm">查看详情</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="new">
+            <div class="media">
+                <div class="media-left media-middle">
+                    <a href="#">
+                        <img class="media-object" src="../img/listgame/dota.jpg" alt="...">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading" style="color: #a6e1ec">DOTA2</h3>
+                    <img src="../img/windows.png">&nbsp;<img src="../img/mac.png">
+                    <div>
+                        <h5><span class="glyphicon glyphicon-tags"> 类别：</span></h5>
+                        <h6>
+                            <a href="#" style="color: yellow">多人在线</a>
+                        </h6>
+                        <button type="button" class="btn btn-danger btn-sm">查看详情</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="cut">
+            <div class="media">
+                <div class="media-left media-middle">
+                    <a href="#">
+                        <img class="media-object" src="../img/listgame/shwj.jpg" alt="...">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading" style="color: #a6e1ec">生化危机2重制版（BIOHAZARD RE:2
+                        ）</h3>
+                    <img src="../img/windows.png">&nbsp;<img src="../img/mac.png">
+                    <div>
+                        <h5><span class="glyphicon glyphicon-tags"> 类别：</span></h5>
+                        <h6>
+                           <a href="#" style="color: yellow">角色扮演</a>
+                        </h6>
+                        <button type="button" class="btn btn-danger btn-sm">查看详情</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="htmleaf-container" style="background-color: #122b40">
+    <div class="demo" >
+        <div class="container">
+            <div>
+                <h3 style="color: #ffffff">&nbsp;&nbsp;<span class="glyphicon glyphicon-book">&nbsp;精选文章</span></h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="padding: 1em 0;">
+                    <div id="news-slider" class="owl-carousel">
+                        <div class="post-slide">
+                            <div class="post-img">
+                                <a href="#"><img src="../jsp/article/img/img-1.jpg" alt=""></a>
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title"><a href="#">Latest News Post</a></h3>
+                                <p>author</p>
+                                <p class="post-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                </p>
+                                <ul class="post-bar">
+                                    <li><i class="fa fa-calendar"></i> 2016-7-28</li>
+                                    <li>
+                                        <i class="fa fa-folder"></i>
+                                        <a href="#">Mockup</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="read-more">read more</a>
+                            </div>
+                        </div>
+
+                        <div class="post-slide">
+                            <div class="post-img">
+                                <a href="#"><img src="../jsp/article/img/img-2.jpg" alt=""></a>
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title"><a href="#">Latest News Post</a></h3>
+                                <p>author</p>
+                                <p class="post-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                </p>
+                                <ul class="post-bar">
+                                    <li><i class="fa fa-calendar"></i> 2016-7-29</li>
+                                    <li>
+                                        <i class="fa fa-folder"></i>
+                                        <a href="#">Mockup</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="read-more">read more</a>
+                            </div>
+                        </div>
+
+                        <div class="post-slide">
+                            <div class="post-img">
+                                <a href="#"><img src="../jsp/article/img/img-3.jpg" alt=""></a>
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title"><a href="#">Latest News Post</a></h3>
+                                <p>author</p>
+                                <p class="post-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                </p>
+                                <ul class="post-bar">
+                                    <li><i class="fa fa-calendar"></i> 2016-7-29</li>
+                                    <li>
+                                        <i class="fa fa-folder"></i>
+                                        <a href="#">Mockup</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="read-more">read more</a>
+                            </div>
+                        </div>
+
+                        <div class="post-slide">
+                            <div class="post-img">
+                                <a href="#"><img src="../jsp/article/img/img-4.jpg" alt=""></a>
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title"><a href="#">Latest News Post</a></h3>
+                                <p>author</p>
+                                <p class="post-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                </p>
+                                <ul class="post-bar">
+                                    <li><i class="fa fa-calendar"></i> 2016-7-29</li>
+                                    <li>
+                                        <i class="fa fa-folder"></i>
+                                        <a href="#">Mockup</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="read-more">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bodyCon08" style="background-color: black">
+    <div class="students">
+        <div id="four_flash">
+            <h3 style="color: #ffffff">&nbsp;&nbsp;<span class="glyphicon glyphicon-user">&nbsp;特别鸣谢</span></h3>
+            <div class="flashBg">
+                <ul class="mobile">
+                    <li>
+                        <img src="../jsp/thanks/images/tyc.jpg" />
+                        <center><dd>桃胤橙</dd></center>
+                        <p>参与测试</p>
+                    </li>
+                    <li>
+                        <img src="../jsp/thanks/images/mk.jpg" />
+                        <center><dd>马奎</dd></center>
+                        <p>参与测试</p>
+                    </li>
+                    <li>
+                        <img src="../jsp/thanks/images/fxy.jpg" />
+                        <center><dd>风象羊</dd></center>
+                        <p>参与测试</p>
+                    </li>
+                    <li>
+                        <img src="../jsp/thanks/images/lxy.jpg" />
+                        <center><dd>李星宇</dd></center>
+                        <p>参与测试</p>
+                    </li>
+                    <li>
+                        <img src="../jsp/thanks/images/hxs.jpg" />
+                        <center><dd>胡消栓</dd></center>
+                        <p>参与测试</p>
+                    </li>
+                    <li>
+                        <img src="../jsp/thanks/images/fxy.jpg" />
+                        <center><dd>于同学</dd></center>
+                        <p>参与测试</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="but_left"><img src="../jsp/thanks/images/qianxleft.png" /></div>
+            <div class="but_right"><img src="../jsp/thanks/images/qianxr.png" /></div>
+        </div>
+    </div>
+</div>
+
+<div class="product-section product-features">
+    <div class="product-wrapper">
+        <div class="product-body swiper-container">
+            <h3 style="color: #ffffff">&nbsp;&nbsp;<span class="glyphicon glyphicon-road">&nbsp;发展历史</span></h3>
+            <ul class="features-slide swiper-wrapper">
+                <li class="features-item swiper-slide">
+                    <h3>2019-01-30</h3>
+                    <i></i> <a class="features-info">
+                    <p class="features-info-i"></p>
+                    <p class="features-info-s"> 项目初步完成规划和立项 </p>
+                </a> </li>
+                <li class="features-item swiper-slide">
+                    <h3>2019-02-15</h3>
+                    <i></i> <a class="features-info">
+                    <p class="features-info-i"></p>
+                    <p class="features-info-s"> 最初版本功能敲定并开始技术选型 </p>
+                </a> </li>
+                <li class="features-item swiper-slide">
+                    <h3>2019-02-20</h3>
+                    <i></i> <a class="features-info">
+                    <p class="features-info-i"></p>
+                    <p class="features-info-s"> 项目正式进入开发阶段，同期开始UI设计 </p>
+                </a> </li>
+                <li class="features-item swiper-slide">
+                    <h3>2019-04-20</h3>
+                    <i></i> <a class="features-info">
+                    <p class="features-info-i"></p>
+                    <p class="features-info-s"> 项目0.1版本开发完成并进入测试阶段 </p>
+                </a> </li>
+                <li class="features-item swiper-slide">
+                    <h3>2019-05-30</h3>
+                    <i></i> <a class="features-info">
+                    <p class="features-info-i"></p>
+                    <p class="features-info-s"> 项目正式开放注册使用 </p>
+                </a> </li>
+                <li class="features-item swiper-slide">
+                    <h3>2019-06-25</h3>
+                    <i></i> <a class="features-info">
+                    <p class="features-info-i"></p>
+                    <p class="features-info-s"> 新增聊天室功能 </p>
+                </a> </li>
+                <li class="features-item swiper-slide">
+                    <h3>2019-07-10</h3>
+                    <i></i> <a class="features-info">
+                    <p class="features-info-i"></p>
+                    <p class="features-info-s"> 后台新增用户数据可视化统计 </p>
+                </a> </li>
+                <li class="features-item swiper-slide">
+                    <h3>2019-08-15</h3>
+                    <i></i> <a class="features-info">
+                    <p class="features-info-i"></p>
+                    <p class="features-info-s"> 客服功能正式上线，增加评论审核 </p>
+                </a> </li>
+                <li class="features-item swiper-slide">
+                    <h3>2019-09-02</h3>
+                    <i></i> <a class="features-info">
+                    <p class="features-info-i"></p>
+                    <p class="features-info-s"> 新增文章板块，支持用户上传自己的文章 </p>
+                </a> </li>
+                <li class="features-item swiper-slide dark">
+                    <h3>即将上线</h3>
+                    <i></i> <a class="features-info">
+                    <p class="features-info-i"></p>
+                    <p class="features-info-s"> 移动模块，新闻模块 </p>
+                </a> </li>
+            </ul>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next swiper-button-disabled"></div>
+    </div>
+</div>
+
+<div class="container-fluid" style="height: 240px;background-color: black">
+    <h3 class="text-center"><span style="color: #2aabd2">————————————————————————查看更多内容?  ————————————————————————</span></h3>
+    <br>
+    <h4 class="text-center" style="color: snow">登录查看更多推荐</h4>
+    <div style="text-align:center">
+        <br>
+        <a href="#"><button class="btn btn-success">登录</button></a>
+    </div>
+    <br>
+    <h4 class="text-center" style="color: snow">或者<a href="#" style="color: orangered">注册</a>并免费加入中文游戏网</h4>
+</div>
+
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<!--<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>-->
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../jsp/article/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="../jsp/thanks/js/thank.js"></script>
+<script type="text/javascript" src="../jsp/about/js/about.js"></script>
+</body>
+</html>
