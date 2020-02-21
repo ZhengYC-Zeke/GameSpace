@@ -376,6 +376,8 @@ public class GameServiceImpl implements GameService {
         Map<String , Object> map = new HashMap<>();
         if(page == null)
             page=1;
+        //添加页码
+        map.put("page",page);
         Example example = new Example(Game.class);
         Example.Criteria criteria = example.createCriteria();
         List<Game> games;

@@ -1,6 +1,6 @@
 package com.zyc.test;
 
-import com.zyc.GameBbsApplication;
+import com.zyc.GameSpaceApplication;
 import com.zyc.entity.Picture;
 import com.zyc.service.PictureService;
 import org.junit.Test;
@@ -18,7 +18,7 @@ import java.util.List;
  * @author: Zeke
  * @date: 2020/2/1 12:15
  */
-@SpringBootTest(classes = GameBbsApplication.class)
+@SpringBootTest(classes = GameSpaceApplication.class)
 @RunWith(value = SpringRunner.class)
 public class PictureTest {
 

@@ -131,7 +131,6 @@ public class GameListServiceImpl implements GameListService {
         //计算总页码
         sum = sum% Page.gamePage==0 ? sum/Page.gamePage : sum/Page.gamePage+1;
         map.put("sum",sum);
-        map.put("page",page);
         return map;
     }
 }

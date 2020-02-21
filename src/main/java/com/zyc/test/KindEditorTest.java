@@ -1,6 +1,6 @@
 package com.zyc.test;
 
-import com.zyc.GameBbsApplication;
+import com.zyc.GameSpaceApplication;
 import com.zyc.entity.Article;
 import com.zyc.mapper.ArticleMapper;
 import org.junit.Test;
@@ -24,7 +24,7 @@ import java.util.regex.Pattern;
  * @date: 2020/1/2 10:14
  */
 
-@SpringBootTest(classes = GameBbsApplication.class)
+@SpringBootTest(classes = GameSpaceApplication.class)
 @RunWith(value = SpringRunner.class)
 public class KindEditorTest {
 

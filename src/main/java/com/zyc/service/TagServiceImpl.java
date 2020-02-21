@@ -29,7 +29,7 @@ public class TagServiceImpl implements TagService {
 
     @Override
     @Transactional(propagation = Propagation.SUPPORTS)
-    //分页查询所有
+    //查询所有
     public List<Tag> selectAllByGame(String gameName) {
         if(gameName.equals("该类别下暂无游戏"))
             return null;

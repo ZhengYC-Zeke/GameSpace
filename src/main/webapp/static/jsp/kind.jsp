@@ -98,7 +98,7 @@
                             <h4 class="group inner list-group-item-heading" style="margin-top: 10px">
                                 <strong style="color:black">${game.name}</strong></h4>
                             <p class="group inner list-group-item-text" style="color:orangered;margin-top: 10px">
-                                   简介：${fn:substring(game.introduce, 0, 50)}……</p>
+                                   简介：${fn:substring(game.introduce, 0, 40)}……</p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-4">
                                     <p class="lead" style="margin-bottom:0;margin-top:10px;font-size: 14px;color:purple">

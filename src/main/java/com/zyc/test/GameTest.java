@@ -1,6 +1,6 @@
 package com.zyc.test;
 
-import com.zyc.GameBbsApplication;
+import com.zyc.GameSpaceApplication;
 import com.zyc.entity.Game;
 import com.zyc.entity.GameRedis;
 import com.zyc.mapper.GameMapper;
@@ -23,7 +23,7 @@ import java.util.Map;
  * @author: Zeke
  * @date: 2020/2/1 12:52
  */
-@SpringBootTest(classes = GameBbsApplication.class)
+@SpringBootTest(classes = GameSpaceApplication.class)
 @RunWith(SpringRunner.class)
 public class GameTest {
 

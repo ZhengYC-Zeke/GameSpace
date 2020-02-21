@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zyc</groupId>
-    <artifactId>GameSpace</artifactId>
+    <artifactId>game_bbs</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>GameSpace</name>
     <description>Chinese Games Space</description>

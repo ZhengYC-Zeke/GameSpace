@@ -1,6 +1,6 @@
 package com.zyc.test;
 
-import com.zyc.GameBbsApplication;
+import com.zyc.GameSpaceApplication;
 import com.zyc.entity.GameRedis;
 import com.zyc.entity.Tag;
 import org.junit.Test;
@@ -22,7 +22,7 @@ import java.util.UUID;
  * @author: Zeke
  * @date: 2020/1/5 11:26
  */
-@SpringBootTest(classes = GameBbsApplication.class)
+@SpringBootTest(classes = GameSpaceApplication.class)
 @RunWith(value = SpringRunner.class)
 public class RedisTest {
 
